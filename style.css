@@ -1,3 +1,11 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
 .col-home h1 {
   padding-top: 6px;
   color: black;
@@ -161,6 +169,14 @@ ul {
     padding-left: 45px; /* Ubah padding kiri untuk h1 */
   }
 
+  h2{
+    font-size: 18.72px;
+  }
+
+  h3{
+    font-size: 16px;
+  }
+
   .butt-home {
     font-size: 11px; /* Ubah ukuran font untuk .butt-home */
     margin-top: 5px; /* Ubah margin atas untuk .butt-home */
@@ -187,5 +203,16 @@ ul {
     border-radius: 50%; /* Membuat gambar menjadi lingkaran */
     overflow: hidden; /* Menyembunyikan bagian gambar yang berada di luar border-radius */
     margin: 0 5px; /* Atur jarak antara foto-foto */
+  }
+}
+
+
+@media (max-width: 768px) {
+  h2{
+    font-size: 16px;
+  }
+
+  h3{
+    font-size: 13.28px;
   }
 }
