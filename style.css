@@ -1,0 +1,138 @@
+.col-home h1 {
+  padding-top: 6px;
+  color: black;
+  padding-left: 40px;
+  /* background-color: black; */
+  padding-left: 5px;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+.our-gallery h1,
+.our-profile h1 {
+  text-align: center;
+}
+
+.welcomebag {
+  background: url("../responsive/foto/pngtree-indoor-office-png-image_2215290.jpg")
+    no-repeat center center/cover;
+  /* Ganti 'path_to_your_image.jpg' dengan path atau URL gambar yang Anda inginkan */
+  color: white; /* Teks warna putih agar kontras dengan latar belakang gambar */
+  padding: 50px; /* Atur padding sesuai kebutuhan */
+  /* padding: 10px; */
+  padding-top: 15px;
+  text-align: center;
+}
+
+.butt-home {
+  justify-content: center;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black; /* Menambahkan border 1px solid dengan warna #333 */
+  padding: 5px 10px; /* Menambahkan padding di dalam tombol */
+  border-radius: 5px; /* Menambahkan sudut melengkung pada border */
+}
+
+/* Gaya CSS untuk membuat lingkaran */
+.profile-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-picture {
+  width: 200px; /* Atur lebar gambar */
+  height: 200px; /* Atur tinggi gambar */
+  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+  overflow: hidden; /* Menyembunyikan bagian gambar yang berada di luar border-radius */
+  margin: 0 25px; /* Atur jarak antara foto-foto */
+}
+
+/* Contoh CSS untuk memberi bayangan dan efek hover pada foto profil */
+.profile-picture img {
+  width: 100%; /* Mengisi ruang gambar yang ada di dalam lingkaran */
+  height: 100%; /* Mengisi ruang gambar yang ada di dalam lingkaran */
+  object-fit: cover; /* Memastikan gambar diisi dengan proporsi yang benar */
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-picture:hover img {
+  transform: scale(1.1); /* Efek zoom ketika hover */
+  filter: brightness(80%); /* Efek pencerahan ketika hover */
+  transition: transform 0.3s ease-in-out;
+}
+
+#lightbox-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 999;
+}
+
+#lightbox-content {
+  position: relative;
+  margin: 10% auto;
+  padding: 20px;
+  max-width: 80%;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+#lightbox-content img,
+#lightbox-content video {
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .col-home h1 {
+    padding-left: 45px; /* Ubah padding kiri untuk h1 */
+  }
+
+  .butt-home {
+    font-size: 11px; /* Ubah ukuran font untuk .butt-home */
+    margin-top: 5px; /* Ubah margin atas untuk .butt-home */
+    padding: 3px 8px; /* Ubah padding untuk .butt-home */
+  }
+
+  /* .profile-container {
+    flex-direction: column;
+    flex: auto;
+    align-items: center;
+  }
+
+  .profile-picture {
+    margin-top: 20px;
+  } */
+
+  .welcomebag {
+    font-size: 14px;
+  }
+
+  .profile-picture {
+    width: 150px; /* Atur lebar gambar */
+    height: 120px; /* Atur tinggi gambar */
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    overflow: hidden; /* Menyembunyikan bagian gambar yang berada di luar border-radius */
+    margin: 0 5px; /* Atur jarak antara foto-foto */
+  }
+}
