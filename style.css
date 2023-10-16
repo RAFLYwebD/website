@@ -188,24 +188,4 @@ ul {
     overflow: hidden; /* Menyembunyikan bagian gambar yang berada di luar border-radius */
     margin: 0 5px; /* Atur jarak antara foto-foto */
   }
-
-  .about {
-  background-color: #f5f5f5;
-  padding: 20px;
-  text-align: center;
-}
-
-  .about h1 {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-  .about p {
-  font-size: 16px;
-  color: #666;
-  line-height: 1.5;
-  margin: 0 auto;
-  max-width: 800px;
-}
 }
