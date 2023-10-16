@@ -7,23 +7,16 @@
   text-align: center;
 }
 
+.body {
+  font-family: "Raleway";
+}
+
 ul {
   text-align: center;
 }
 
 .our-gallery h1,
 .our-profile h1 {
-  text-align: center;
-}
-
-.welcomebag {
-  background: url("pngtree-indoor-office-png-image_2215290.jpg")
-    no-repeat center center/cover;
-  /* Ganti 'path_to_your_image.jpg' dengan path atau URL gambar yang Anda inginkan */
-  color: white; /* Teks warna putih agar kontras dengan latar belakang gambar */
-  padding: 50px; /* Atur padding sesuai kebutuhan */
-  /* padding: 10px; */
-  padding-top: 15px;
   text-align: center;
 }
 
